@@ -2,7 +2,7 @@ import 'server-only'
 import { verifyJWT } from './jwt'
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
-import { getUserById, SafeUser } from './dummyDatabase'
+import { getUserById, SafeUser } from './database'
 
 /**
  * Redirect when a user is unauthenticated

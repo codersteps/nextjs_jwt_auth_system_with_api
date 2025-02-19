@@ -1,6 +1,6 @@
 'use client'
 
-import { SafeUser } from '@/lib/server/dummyDatabase'
+import { SafeUser } from '@/lib/server/database'
 import { createContext, ReactNode, useEffect, useState } from 'react'
 
 type Props = {

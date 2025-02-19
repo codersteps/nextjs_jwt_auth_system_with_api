@@ -1,3 +1,4 @@
+import 'server-only'
 import { join } from 'node:path'
 import { readFile, writeFile } from 'node:fs/promises'
 

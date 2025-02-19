@@ -3,7 +3,7 @@ import bcrypt from 'bcrypt'
 import { addDays } from 'date-fns'
 import { cookies } from 'next/headers'
 import { signJWT } from '@/lib/server/jwt'
-import { getUserByUsername } from '@/lib/server/dummyDatabase'
+import { getUserByUsername } from '@/lib/server/database'
 
 const schema = z.object({
   username: z.string(),

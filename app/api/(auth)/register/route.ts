@@ -1,6 +1,6 @@
 import { z } from 'zod'
 import bcrypt from 'bcrypt'
-import { saveNewUser } from '@/lib/server/dummyDatabase'
+import { saveNewUser } from '@/lib/server/database'
 
 const schema = z.object({
   username: z.string(),
